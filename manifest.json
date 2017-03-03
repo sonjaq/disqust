@@ -18,8 +18,8 @@
 	"author":"sonjaqleaf@gmail.com",
 	"content_scripts":[
 		{
-		"matches":["*://*/*"],
-		"js":["main.js"]
+			"matches":["*://*/*"],
+			"js":["main.js"]
 		}
 	]
 }
