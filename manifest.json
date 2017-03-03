@@ -15,7 +15,7 @@
 	"permissions":[
 		"tabs"
 	],
-	"author":"leaf@clockwork.com",
+	"author":"sonjaqleaf@gmail.com",
 	"content_scripts":[
 		{
 		"matches":["*://*/*"],
