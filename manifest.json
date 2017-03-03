@@ -1,0 +1,25 @@
+{
+	"name":"Disqust",
+	"manifest_version":2,
+	"version":"0.1.0",
+	"description":"Block Disqus threads, for a friend",
+	"icons":{
+		"16":"16x16.png",
+		"48":"48x48.png",
+		"128":"128x128.png"
+	},
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_title":"Disqust"
+	},
+	"permissions":[
+		"tabs"
+	],
+	"author":"leaf@clockwork.com",
+	"content_scripts":[
+		{
+		"matches":["*://*/*"],
+		"js":["main.js"]
+		}
+	]
+}
